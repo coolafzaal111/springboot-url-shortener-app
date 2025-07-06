@@ -10,5 +10,6 @@ public class UrlCompressorApplication {
 		SpringApplication.run(UrlCompressorApplication.class, args);
 		
 	}
+	
 
 }
