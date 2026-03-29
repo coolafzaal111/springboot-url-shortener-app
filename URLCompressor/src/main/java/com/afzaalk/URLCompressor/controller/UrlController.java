@@ -35,6 +35,7 @@ public class UrlController {
 		return "Hi Afzaal, I am up and working fine";
 	}	
 	
+	
 	@PostMapping("/generateshorturl")
 	public ResponseEntity<?> generateShortLink(@RequestBody UrlDTO urlDTO) {
 		
