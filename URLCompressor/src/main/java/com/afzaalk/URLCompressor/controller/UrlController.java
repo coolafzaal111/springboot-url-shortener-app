@@ -29,6 +29,12 @@ public class UrlController {
 	@Autowired
 	UrlServiceImpl urlServiceImpl;
 	
+
+	@GetMapping("/hello")
+	public String hello() {
+		return "Hi Afzaal, I am up and working fine";
+	}	
+	
 	@PostMapping("/generateshorturl")
 	public ResponseEntity<?> generateShortLink(@RequestBody UrlDTO urlDTO) {
 		

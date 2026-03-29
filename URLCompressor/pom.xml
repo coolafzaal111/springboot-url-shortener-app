@@ -11,7 +11,7 @@
 	<groupId>com.afzaalk</groupId>
 	<artifactId>URLCompressor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	<name>URLCompressor</name>
 	<description>A lightweight URL shortener application built using Spring Boot</description>
 	<url/>
